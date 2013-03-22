@@ -14,6 +14,7 @@ Feature: Snarf the Web User Data
 # Given a hash
 # Given a Pony
 
+	@mac
 	Scenario: Mac OS X and Firefox Snarf
 
 	Given the OS is Macintosh
@@ -22,6 +23,7 @@ Feature: Snarf the Web User Data
 	Then add to target folder list "~/Library/Application Support/Firefox/"
 	Then Snarf Profiles and profiles.ini
 	
+	@linux
 	Scenario: Linux and Firefox Snarf
 
 	Given the OS is Linux
@@ -30,5 +32,13 @@ Feature: Snarf the Web User Data
 	Then add to target folder list "~/.mozilla/Firefox/"
 	Then Snarf Profiles and profiles.ini
 	
+	@win7
+	Scenario: Win7 and Firefox Snarf
+
+	Given the OS is Windows7
+#	And Users should be in c:\Users
+#	And Firefox profiles should be in ~/AppData/[something]/Firefox/
+	Then add to target folder list "~/AppData/[something]/Firefox/"
+	Then Snarf Profiles and profiles.ini
 	
 	
