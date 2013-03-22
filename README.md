@@ -16,14 +16,20 @@ First we will be working out a specification skeleton, likely using Cucumber. Th
 
 Ambitious plans for other browsers, other archive formats, other client OS, encrypting the archives are TBD. I have some zany ideas about snarfing over the network as well as what to do with snarfed data that will also have to wait until some working code emerges.
 
+<b>Redistribution and reuse:</b>
+
+Unlimited distribution and reuse. Apache License.
+
 <b>References</b>
 
 Forensic Wiki: Firefox at http://www.forensicswiki.org/wiki/Firefox
 
-Windows Forensic Analysis Toolkit, Third Edition: Advanced Analysis Techniques for Windows 7 by Harlan Carvey
+<i>Windows Forensic Analysis Toolkit, Third Edition: Advanced Analysis Techniques for Windows 7</i> by Harlan Carvey
+
 http://www.amazon.com/Windows-Forensic-Analysis-Toolkit-Third/dp/1597497274
 
-<b>Distribution:</b>
+<i>The Cucumber Book: Behaviour-Driven Development for Testers and Developers</i> by Matt Wynne and Aslak Hellesøy
 
-Unlimited distribution and reuse. Apache License.
+http://pragprog.com/book/hwcuc/the-cucumber-book
+
 
