@@ -4,7 +4,7 @@ webuser-snarf
 
 <b>What?</b>
 
-In its initial incarnation, wus will look at a locally accessible file system, enumerate the use accounts it can find, enumerate the web user profiles that it can find in those user accounts and then vacuum up and archive the profiles in a standardized way.
+In its initial incarnation, wus will look at a locally accessible file system, enumerate the user accounts it can find, enumerate the web user profiles that it can find in those user accounts, and then vacuum up and archive the profiles in a standardized way.
 
 <b>Scope</b>
 
